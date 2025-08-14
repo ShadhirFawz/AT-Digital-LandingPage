@@ -66,7 +66,7 @@ const LandingPage = () => {
         
         {/* Content Box - Positioned absolutely over the image */}
         <div className="container mx-auto px-0 md:px-4">
-          <div className="md:w-1/2 bg-gradient-to-r from-green-400 to-blue-400 text-[#ffffff] p-6 md:p-12 relative md:absolute md:top-3/5 md:-translate-y-1/2 md:left-15 mt-0 md:mt-0">
+          <div className="md:w-2/5 bg-gradient-to-r from-green-400 to-blue-400 text-[#ffffff] p-6 md:p-8 relative md:absolute md:top-3/5 md:-translate-y-1/2 md:left-15 mt-0 md:mt-0">
             <h1 className="text-3xl md:text-4xl mb-8 lg:text-5xl font-bold">We Crush Your Competitors, Goals, And Sales Records - Without The B.S.</h1>
             <Link 
               to='/consultant'
