@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+
+@layer base {
+  :root {
+    --color-bluish-purple: 231 48% 48%; /* Primary: Used on CTAs, nav/footer bg, headings */
+    --color-yuzu-jam: 28 80% 58%; /* Secondary: Used for contrast on buttons and highlights */
+    --color-ice-ice-baby: 197 37% 89%; /* Analogous 1: Used in mixed color areas like subtle backgrounds */
+    --color-rich-blue: 199 84% 55%; /* Analogous 2: Used for hero text bg and mixed highlights */
+    --color-electric-indigo: 249 80% 47%; /* Triadic 1: Used in mixed color areas */
+    --color-interstellar-blue: 215 50% 23%; /* Dark: Used for dark backgrounds */
+    --color-tricorn-black: 0 0% 25%; /* Text: Used for body and title texts */
+    --color-acier: 0 0% 61%; /* Text Light/Subtle: Used for placeholders and lighter texts */
+    --color-wizard-white: 240 33% 99%; /* Accent: Used for body texts and light bgs */
+    --color-cuddly-yarn: 48 89% 99%; /* Accent: Used for body texts */
+    --color-hornet-sting: 0 100% 62%; /* Error: Used for error messages */
+    --color-frog: 135 47% 50%; /* Success: Used for success messages/icons */
+  }
+}
